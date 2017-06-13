@@ -1,0 +1,275 @@
+
+//---------- fonts -------------------------
+
+@font-face {
+	font-family: 'Holtwood';
+	src: url('../fonts/Holtwood_One_Sc/HoltwoodOneSC.ttf');
+}
+
+
+@font-face {
+	font-family: 'Lobster';
+	src: url('../fonts/Lobster/Lobster.ttf');
+}
+
+
+
+
+
+//---------- end fonts ----------------------
+
+body {
+	height: 100%;
+	weight: 100%;
+	background-image: url(../img/bg-dark.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1.header-logo {
+	text-align: center;
+	width: 100%;
+	font-size: 50px;
+	}
+
+h1.coffee-logo {
+	font-family: 'Lobster';
+	color: #e5d4cd;
+	padding-bottom: 20px;
+	text-shadow: 2px 2px 0 hsla(0, 33%, 63%, 0.39);
+		
+}
+
+
+
+.shop-info {
+	background: rgba(13,9,6,.7);
+    color: #e1d2d7;
+    width: 48%;
+    padding-top: 0;
+    padding-bottom: 0;
+    left: 52%;
+    top: 17%;
+    height: 13%;
+
+    h4 {
+    	padding-bottom: 9px;
+    	font-size: 21px;
+    }
+
+    h5 {
+    	line-height: 5px;
+    	font-size: 16px;
+    }
+}
+
+.btn-secondary {
+	color: $btn-primary-color;
+	text-shadow: none;
+	word-spacing: -10px;
+	padding-bottom: 6px;
+	padding-top: 3px;
+	font-family: Holtwood;
+	left: 52%;
+	width: 48%;
+	bottom: 66%;
+}
+
+
+
+
+.row {
+	padding-left: 15px;
+}
+
+.dotted {
+	border: none;
+	border-top: 1px dotted;
+	color: #fff;
+	
+}
+
+
+.title-drink{
+	font-size: 30px;
+	font-family: Holtwood;
+	text-transform: uppercase;
+	color: #e1d2d7;
+}
+
+
+
+
+//---------- carousel ------------------------
+
+
+.todays-menu {
+	font-family: Holtwood;
+	font-size: 40px;
+	color: #ebdcd5 ;
+	text-align: center;
+}
+
+
+
+
+//---------- coffee section -------------------
+
+
+
+.coffee-section {
+	padding-bottom: $padding-base-horizontal ;
+
+}
+
+
+.coffee-price {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 21px;
+	color: #e1d2d7;
+	padding-bottom: $padding-small-horizontal;
+
+}
+
+.coffee-description {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
+	color: #bf9280;
+}
+
+
+
+
+
+@media (max-width: $screen-xs-max) { 
+
+	.coffee-carousel {
+		display: none;
+	}
+
+	
+}
+
+
+@media (min-width: $screen-sm-max) { 
+
+	.c-t-dotted {
+		display: none;
+	}
+
+	
+}
+
+
+@media (max-width: $screen-sm-max) { 
+		.todays-menu {
+			display: none;
+		}
+
+		.menu-dotted {
+			display: none;
+		}
+
+}
+
+
+
+
+
+//---------- tea section ------------------------
+
+
+.tea-section {
+	padding-bottom: $padding-base-horizontal ;
+
+
+}
+
+
+.tea-price {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 21px;
+	color: #e1d2d7;
+	padding-bottom: $padding-small-horizontal;
+}
+
+.tea-description {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
+	color: #bf9280;
+}
+
+
+
+//----------- end tea section -------------------
+
+
+
+
+
+
+//--------- footer -------------------------
+
+
+
+footer {
+	background: black;
+	height: 223px;
+}
+
+h1.footer-logo {
+	padding-left: 15px;
+    padding-bottom: 58px;
+    padding-top: 24px;
+}
+
+ul.footer_sidemap {
+	padding-left: 0;
+}
+
+ul.footer_sidemap--list {
+	padding-left: 0;
+}
+
+.footer_sidemap{
+	padding-bottom: 0;
+
+}
+
+.footer_sidemap--list {
+	color: #e1d2d7;
+	
+
+}
+
+.footer_items {
+	padding-left: 15px;
+
+
+}
+
+.footer-link {
+	color: #659cc3;
+}
+
+
+
+	
+
+//---------- end footer ------------------------
+
+
+//----------- tablet ----------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
